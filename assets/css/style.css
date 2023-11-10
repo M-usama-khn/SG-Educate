@@ -1,0 +1,437 @@
+    /* global css start  */
+    :root {
+        --cta-color: #5B0888;
+        --primary-color: #713ABE;
+        --secondary-color: #C3E8F1;
+        --text-color: #212121;
+        --heading-color: #000000;
+    }
+
+    body {
+        font-family: Inter;
+    }
+
+    .bg-light-blue {
+        background-color: var(--secondary-color);
+    }
+
+    .btn-primary {
+        background-color: var(--cta-color);
+        border-color: var(--cta-color);
+    }
+
+    .btn-primary:hover {
+        background-color: transparent;
+        border-color: var(--cta-color);
+        color: var(--cta-color);
+    }
+
+    .btn-outline-primary,
+    .btn-outline-primary:hover {
+        background-color: transparent;
+        border-color: var(--heading-color);
+        color: var(--heading-color);
+    }
+
+    h1 {
+        font: normal 700 56px/70px "Inter";
+    }
+
+    h2 {
+        font: normal 700 28px/38px "Inter";
+    }
+
+    h3 {
+        font: normal 700 22px/32px "Inter";
+    }
+
+    p {
+        font: normal 400 18px/28px "Inter";
+        color: var(--text-color);
+    }
+
+    li {
+        font: normal 300 18px/28px "Inter";
+        color: var(--text-color);
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: var(--heading-color);
+    }
+
+    .py-30 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .heading-border {
+        width: 100px;
+        height: 3px;
+        background-color: var(--cta-color);
+    }
+
+    .g-10 {
+        gap: 10px;
+    }
+
+    .g-6 {
+        gap: 6px;
+    }
+
+    .border-cta {
+        border: 1px solid var(--primary-color);
+    }
+
+    .border-course {
+        border-bottom: 2px solid var(--cta-color);
+        margin-top: 10px;
+    }
+
+    .fs-11 {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .fs-12 {
+        font-size: 12px;
+    }
+
+    .cta-color,
+    .cta-color:hover {
+        color: var(--cta-color);
+    }
+
+    .slick-icons {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .form-control:is(:focus, :focus-visible, :focus-within, :active) {
+        box-shadow: none;
+    }
+
+    .fs-14 {
+        font-size: 14px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .g-40 {
+        gap: 40px;
+    }
+
+    b {
+        font-weight: 700;
+    }
+
+    ul {
+        padding-left: 1rem;
+    }
+
+    .mw-500 {
+        max-width: 500px;
+    }
+
+    .py-hero {
+        padding: 200px 15px;
+        background-size: cover;
+        background-position: right;
+    }
+.container figure img{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    /* global css end  */
+        /* Header CSS Start  */
+        .bg-primary-clr {
+            background-color: var(--primary-color);
+        }
+    
+        .topbar .callus-inner span,
+        .emailus-inner span {
+            font: normal 700 18px/28px Inter;
+        }
+    
+        .topbar .callus-inner a,
+        .emailus-inner a {
+            font: normal 400 16px/26px Inter;
+        }
+    
+        .emailus-inner a {
+            min-width: max-content;
+        }
+    
+        .topbar {
+            background: var(--primary-color);
+            padding: 10px 0px;
+        }
+    
+        .callus-inner {
+            border-right: 1px solid #fff;
+            width: 68%;
+        }
+    
+        #menu-main-nav .nav-link {
+            font: normal 500 18px/28px Inter;
+            color: var(--heading-color);
+        }
+    
+        #menu-main-nav .dropdown .dropdown-menu {
+            top: 42px;
+        }
+    
+        .user_profile .dropdown-menu[data-bs-popper] {
+            top: 48px;
+        }
+    
+       
+        button.navbar-toggler:focus,
+        button.navbar-toggler:focus-visible {
+            box-shadow: none;
+        }
+    
+        .user_profile .dropdown-toggle::after {
+            display: none;
+        }
+    
+        .search-icon li a {
+            background-color: #BBD7EC;
+            width: 30px;
+            height: 30px;
+        }
+    
+        .login_menu .menu_links {
+            border-right: 1px solid #000;
+        }
+    
+        /* Header CSS End */
+    .hero-home form {
+        max-width: 550px;
+        margin: auto;
+    }
+
+    .hero-img {
+        height: 70vh;
+        object-fit: cover;
+    }
+
+    .inner-content {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .btn-hero {
+        right: 10px;
+        top: 10px;
+        z-index: 9 !important;
+    }
+
+    .author-blog {
+        color: #A5A5A5;
+    }
+
+    .shadow-course {
+        box-shadow: 0px 4px 4px 0px #00000040;
+    }
+
+    .form-container {
+        max-width: 760px;
+        margin: auto;
+    }
+
+    #course-content-tab .nav-link.active {
+        font-weight: 600;
+        border-bottom-color: #000 !important;
+    }
+
+    .tab-pane,
+    .toc ul li {
+        list-style: none;
+        list-style-image: url('../imgs/plus-icon-list.png');
+        margin-bottom: 5px;
+    }
+
+    .row {
+        --bs-gutter-y: 1.5rem;
+    }
+
+    .sg-ad {
+        max-width: 720px;
+        margin: auto;
+    }
+
+    .comment-avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+    }
+
+    .accordion-item {
+        border: 1px solid var(--primary-color);
+    }
+
+    .feedback-form label {
+        cursor: pointer;
+    }
+
+    .selected-label {
+        background-color: var(--cta-color) !important;
+        color: #fff !important;
+    }
+.user-feedback{
+    position: sticky;
+    top: 40px;
+}
+    /* footer css start  */
+    #footer {
+        background-color: var(--primary-color);
+    }
+
+    .py-80 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .footer-info {
+        font: normal 400 18px/28px Inter;
+        color: #fff;
+        margin: 24px 0px 40px 0;
+        max-width: 390px;
+    }
+
+    .social-media ul {
+        display: flex;
+        gap: 12px;
+        list-style: none;
+    }
+
+    .social-media ul li a {
+        font-size: 16px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: inline-block;
+        color: #fff;
+        background-color: rgba(255, 255, 255, 10%);
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-title {
+        color: #FFF;
+        font: normal 700 20px/30px Inter;
+        margin-bottom: 18px;
+    }
+
+    .footer-menu {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-menu li a {
+        color: #FFF;
+        font: normal 400 20px/30px Inter;
+        text-decoration: none;
+    }
+
+    .wrapper__footer-bottom hr {
+        color: rgba(255, 255, 255, 0.30);
+        margin: 0px 0px 20px 0px;
+    }
+
+    .wrapper__footer-bottom {
+        padding-bottom: 20px;
+    }
+
+    .copyright span {
+        color: var(--Gray, #ADABB7);
+        font: normal 400 18px/28px Inter;
+    }
+
+    .copyright span b {
+        color: #fff;
+        font-weight: 500;
+    }
+
+    /* footer css end  */
+    @media (min-width: 991.96px) {
+        .course-short-desc {
+            top: -150px;
+            background: #fff;
+        }
+        #menu-main-nav .dropdown:hover>.dropdown-menu {
+            display: block;
+        }
+    
+        #menu-main-nav .dropdown>.dropdown-toggle:active {
+            pointer-events: none;
+        }
+        #menu-main-nav .dropdown::before {
+            content: "";
+            position: absolute;
+            top: 10px;
+            padding: 20px;
+            width: 100%;
+        }  
+    }
+
+    @media (max-width: 991.96px) {
+        .overlay-hero {
+            position: absolute;
+            inset: 0;
+            background-color: #00000087;
+        }
+    }
+
+    @media(max-width: 576.96px) {
+        h1 {
+            font: normal 700 30px/40px "Inter";
+        }
+
+        h2 {
+            font: normal 700 24px/34px "Inter";
+        }
+
+        h3 {
+            font: normal 700 20px/30px "Inter";
+        }
+
+        p {
+            font: normal 400 16px/26px "Inter";
+        }
+
+        li {
+            font: normal 300 16px/26px "Inter";
+        }
+
+        .slick-icons {
+            display: none !important;
+        }
+
+        .inner-content {
+            top: 20%;
+            left: 10px;
+            right: 10px;
+            transform: translate(-0%, -0%);
+        }
+
+        .hero-img {
+            height: 80vh;
+        }
+
+        .py-hero {
+            padding: 100px 15px;
+        }
+        .user_profile .dropdown-menu[data-bs-popper] {
+            left: -30px;
+        }
+    }
